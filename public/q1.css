@@ -1,0 +1,70 @@
+.navbar {
+  /*display: flex;*/
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: nowrap;
+  background-image: url(logo.jpg);
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding:3%;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+}
+
+.collapse {
+  /*display: flex;*/
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  align-self: flex-end;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: nowrap;
+
+}
+.pict{
+  width: 33%;
+  height: 460px;
+  margin:.2%;
+  border: 2px solid white;
+}
+
+.logo{
+  width: 25%;
+  height: 70px;
+}
+.Michelin-star{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: nowrap;
+  font-family: 'Amatic SC', cursive;
+  margin: 2%;
+}
+p{
+  font-size: 15px;
+  margin: 2%;
+}
+.Michelin{
+  margin: 3%;
+}
+.name{
+align-self: flex-end;
+margin-left: 84vh;
+font-size: 25px;
+}
+.detail{
+  list-style-type: none;
+}
+.container-fuid{
+display: inline-block;
+float: none;
+vertical-align: top;
+
+}
