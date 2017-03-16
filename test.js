@@ -151,3 +151,4 @@ function appendResult(json){
         var htmltoAppend = '<article class ="restaurant row"><div class ="resPic col-md-4"> <img src="'+image+'" alt="" class="img-thumbnail"></div><div class="info col-md-3" ><ul class="detail"><li class ="restNames">'+name+'</li><li class ="restCity">'+cities+'</li><li class ="restWeb"><a href="http://'+web+'" target="blank">'+web+'</a></li><li class = "resCook">'+cuisine+'</li><li class = "restStar">'+stars+'</li></ul></div><div class ="restDesc col-md-5">'+description+'</div><hr class="col-md-12"></article>';
 
         list.append(htmltoAppend);
+        
