@@ -1,8 +1,11 @@
+*{
+  font-family: 'Raleway', sans-serif;
+}
 .navbar {
   /*display: flex;*/
   justify-content: center;
   align-items: baseline;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   background-image: url(logo.jpg);
   background-position: left;
   background-size: contain;
@@ -10,6 +13,26 @@
   padding:3%;
   font-family: 'Amatic SC', cursive;
   font-size: 30px;
+  background-color: black;
+  color: red;
+  height:200px;
+}
+.navbar-default .navbar-nav li a {
+  color: #FBFBFB;
+  font-weight: bold;
+  font-family: 'Amatic SC', cursive;
+}
+.dropdown-menu li a {
+  background-color: black;
+  font-size: 20px;
+}
+.extraspace{
+  margin-top: 30px;
+}
+.homebutton{
+  font-family: 'Amatic SC', cursive;
+  color:#FBFBFB;
+  margin-right: 35px;
 }
 
 .collapse {
@@ -30,7 +53,7 @@
 }
 .pict{
   width: 33%;
-  height: 460px;
+  height: 300px;
   margin:.2%;
   border: 2px solid white;
 }
@@ -55,9 +78,9 @@ p{
   margin: 3%;
 }
 .name{
-align-self: flex-end;
-margin-left: 84vh;
 font-size: 25px;
+font-family: 'Amatic SC', cursive;
+color: #191716;
 }
 .detail{
   list-style-type: none;
@@ -66,5 +89,6 @@ font-size: 25px;
 display: inline-block;
 float: none;
 vertical-align: top;
+color: red;
 
 }

@@ -34,6 +34,7 @@ $.get(url_1)
   appendResult(json);
   appendResult(json1);
   appendResult(json2);
+
 });
 
 }
@@ -46,6 +47,7 @@ function cityLocal(value){
   .then(function(data) {
     var json = JSON.parse(data);
     appendResult(json);
+
   });
 }
 
@@ -54,6 +56,8 @@ function appendResult(json){
   var list = $("#listRestaurant");
    list.empty();
   // console.log(json.poiList.length)
+  list.append('<div class="col-md-12">'+json.poiList.length +'  Restaurant found</div>');
+
   for (var i = 0; i <json.poiList.length; i++) {
     var name = json.poiList[i].datasheets[0].name;
     var description = json.poiList[i].datasheets[0].description;

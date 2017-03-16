@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Q1 Project</title>
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:300" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -38,16 +38,14 @@
 
                 <ul class="nav navbar-nav">
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cities <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle navbardrop" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cities <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#" data-loc="-87.63:41.89" class="city">Chicago</a></li>
                             <li><a href="#" data-loc="-73.87:40.72" class="city">New York</a></li>
                             <li><a href="#" data-loc="-122.41:37.77" class="city">San Fransisco Area</a></li>
                         </ul>
                     </li>
-                </ul>
 
-                <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Michelin Star <span class="caret"></span></a>
                         <ul class="dropdown-menu">
@@ -62,12 +60,19 @@
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
-        <p class="name"> Hello</p>
+        <div class="container-fluid navbar-right extraspace">
+          <a class ="homebutton" href="index.html">
+          Reset
+        </a>
+        </div>
 
 </nav>
         <div class="container-fluid">
 
+
         <section id="listRestaurant" class="col-md-12">
+          <p class="name"> For a list of restaurants, select by city or Michelin Star.</p>
+
         </section>
 
         <div class="img-container col-md-12">
