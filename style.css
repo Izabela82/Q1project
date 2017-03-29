@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+    flex: 1 0 auto;
+  }
+.imagecontainer{
+  width: 250px;
+  height: auto;
+}
+.nav-wrapper{
+  background-color: #034867;
+}
+footer.page-footer{
+  background-color: #034867;
+}

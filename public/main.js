@@ -15,11 +15,11 @@ $('document').ready(function(){
 function starLocal(value){
   console.log("This is the Value/Stars: "+ value);
 
-var url_1 = "http://apir.viamichelin.com/apir/2/findPoi.json2/RESTAURANT/eng?center=-87.63:41.89&nb=100&dist=10000000&source=RESGR&filter=michelin_stars%20eq%20"+value+"%20&charset=UTF-8&ie=UTF-8&authKey=RESTGP20170310222038934049903020";
+var url_1 = "https://apir.viamichelin.com/apir/2/findPoi.json2/RESTAURANT/eng?center=-87.63:41.89&nb=100&dist=10000000&source=RESGR&filter=michelin_stars%20eq%20"+value+"%20&charset=UTF-8&ie=UTF-8&authKey=RESTGP20170310222038934049903020";
 console.log(url_1);
-var url_2 = "http://apir.viamichelin.com/apir/2/findPoi.json2/RESTAURANT/eng?center=-73.87:40.72&nb=100&dist=10000000&source=RESGR&filter=michelin_stars%20eq%20"+value+"%20&charset=UTF-8&ie=UTF-8&authKey=RESTGP20170310222038934049903020";
+var url_2 = "https://apir.viamichelin.com/apir/2/findPoi.json2/RESTAURANT/eng?center=-73.87:40.72&nb=100&dist=10000000&source=RESGR&filter=michelin_stars%20eq%20"+value+"%20&charset=UTF-8&ie=UTF-8&authKey=RESTGP20170310222038934049903020";
 
-var url_3 = "http://apir.viamichelin.com/apir/2/findPoi.json2/RESTAURANT/eng?center=-122.41:37.77&nb=100&dist=10000000&source=RESGR&filter=michelin_stars%20eq%20"+value+"%20&charset=UTF-8&ie=UTF-8&authKey=RESTGP20170310222038934049903020";
+var url_3 = "https://apir.viamichelin.com/apir/2/findPoi.json2/RESTAURANT/eng?center=-122.41:37.77&nb=100&dist=10000000&source=RESGR&filter=michelin_stars%20eq%20"+value+"%20&charset=UTF-8&ie=UTF-8&authKey=RESTGP20170310222038934049903020";
 
   console.log("This is the API URL: "+ url_1);
 $.get(url_1)
@@ -41,7 +41,7 @@ $.get(url_1)
 
 function cityLocal(value){
   console.log("This is the Value/Lat and Long: "+ value);
-  var url = "http://apir.viamichelin.com/apir/2/findPoi.json2/RESTAURANT/eng?center=" + value + "&nb=100&dist=10000000&source=RESGR&filter=michelin_stars%20ge%201%20&charset=UTF-8&ie=UTF-8&authKey=RESTGP20170310222038934049903020"
+  var url = "https://apir.viamichelin.com/apir/2/findPoi.json2/RESTAURANT/eng?center=" + value + "&nb=100&dist=10000000&source=RESGR&filter=michelin_stars%20ge%201%20&charset=UTF-8&ie=UTF-8&authKey=RESTGP20170310222038934049903020"
     console.log("This is the API URL: "+ url);
   $.get(url)
   .then(function(data) {
